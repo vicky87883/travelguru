@@ -19,6 +19,8 @@
         <link rel="stylesheet" type="text/css" href="css/az-styles.css">
         <!-- Load Font Awesome Kit -->
         <script src="../../747940bb1c.js"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755"
+     crossorigin="anonymous"></script>
         <!-- Load Animate CSS -->
         <link rel="stylesheet" type="text/css" href="css/animate.css">
         <!-- Load AOS CSS -->

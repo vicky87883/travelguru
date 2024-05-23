@@ -26,7 +26,8 @@
         <!-- Slick Slider CSS -->
         <link rel="stylesheet" type="text/css" href="css/slick.css">
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
-        
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755"
+     crossorigin="anonymous"></script>
     </head>
     <body class="white">
         

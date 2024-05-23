@@ -26,7 +26,8 @@
         <link rel="stylesheet" type="text/css" href="css/slick.css">
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755"
+     crossorigin="anonymous"></script>
     </head>
     <body class="white">
         
