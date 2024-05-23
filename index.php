@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="lancio, food, launch, app, product, template, design, modern, elegant">
         <meta name="Resource-type" content="Document">
-        
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
         <!-- Upload Font "https://fonts.google.com/" -->
         <link href="../../css?family=Montserrat:100,200,300,400,600,700&display=swap" rel="stylesheet">
         <link href="../../css-1?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
