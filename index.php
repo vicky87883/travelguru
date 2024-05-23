@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Exodus - Vintage HTML Template</title>
+        <title>TravelGuru - ADVENTURES FILL SOUL</title>
         <meta name="description" content="lancio, business, launch, app, product, template, design, modern, elegant">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="lancio, food, launch, app, product, template, design, modern, elegant">
@@ -56,7 +56,7 @@
                                             <h5 class="t-white">Breath-taking views</h5>
                                             <span class="line gold"></span>
                                             <div class="display t-white" data-aos="fade-down" data-aos-anchor-placement="center-bottom">Experience <span class="ft-word">epic</span> beauty</div>
-                                            <a href="promo-page.html" data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="primary-btn no-bg large border-2 b-white white t-white">Explore</a>
+                                            <a href="promo-page.php" data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="primary-btn no-bg large border-2 b-white white t-white">Explore</a>
                                         </div>
                                     </div>
                                    <div class="gradient-overlay op-5"></div>
@@ -86,7 +86,7 @@
                                             <h5 class="t-white">misty mountains</h5>
                                             <span class="line white"></span>
                                             <div class="display t-white" data-aos="fade-down" data-aos-anchor-placement="center-bottom">Amazing <span class="ft-word">Scotland</span></div>
-                                            <a href="promo-detail.html" data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="primary-btn light-blue large t-dark-clay">discover now</a>
+                                            <a href="promo-detail.php" data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="primary-btn light-blue large t-dark-clay">discover now</a>
                                         </div>
                                     </div>
                                    <div class="gradient-overlay op-5"></div>
@@ -115,7 +115,7 @@
                             
                             <!-- Promo Item -->
                             <div class="promo-item">
-                                <a href="promo-detail.html" class="link-item">
+                                <a href="promo-detail.php" class="link-item">
                                     <div class="hover-link">
                                         <span class="primary-btn large black t-gold">View Promo</span>
                                     </div>
@@ -133,7 +133,7 @@
                             
                             <!-- Promo Item -->
                             <div class="promo-item">
-                                <a href="promo-detail.html" class="link-item">
+                                <a href="promo-detail.php" class="link-item">
                                     <div class="hover-link">
                                         <span class="primary-btn large black t-snow">more details</span>
                                     </div>
@@ -148,7 +148,7 @@
                             
                             <!-- Promo Item -->
                             <div class="promo-item">
-                                <a href="promo-detail.html" class="link-item">
+                                <a href="promo-detail.php" class="link-item">
                                     <div class="hover-link">
                                         <span class="primary-btn large black t-snow">more details</span>
                                     </div>
@@ -163,7 +163,7 @@
                             
                             <!-- Promo Item -->
                             <div class="promo-item">
-                                <a href="promo-detail.html" class="link-item">
+                                <a href="promo-detail.php" class="link-item">
                                     <div class="hover-link">
                                         <span class="primary-btn large black t-snow">more details</span>
                                     </div>
@@ -178,7 +178,7 @@
                             
                             <!-- Promo Item -->
                             <div class="promo-item">
-                                <a href="promo-detail.html" class="link-item">
+                                <a href="promo-detail.php" class="link-item">
                                     <div class="hover-link">
                                         <span class="primary-btn large black t-snow">more details</span>
                                     </div>
@@ -193,7 +193,7 @@
                             
                             <!-- Promo Item -->
                             <div class="promo-item">
-                                <a href="promo-detail.html" class="link-item">
+                                <a href="promo-detail.php" class="link-item">
                                     <div class="hover-link">
                                         <span class="primary-btn large black t-gold">View Promo</span>
                                     </div>
@@ -211,7 +211,7 @@
                             
                             <!-- Promo Item -->
                             <div class="promo-item">
-                                <a href="promo-detail.html" class="link-item">
+                                <a href="promo-detail.php" class="link-item">
                                     <div class="hover-link">
                                         <span class="primary-btn large black t-snow">more details</span>
                                     </div>
@@ -226,7 +226,7 @@
                             
                             <!-- Promo Item -->
                             <div class="promo-item">
-                                <a href="promo-detail.html" class="link-item">
+                                <a href="promo-detail.php" class="link-item">
                                     <div class="hover-link">
                                         <span class="primary-btn large black t-snow">more details</span>
                                     </div>
@@ -239,7 +239,7 @@
                                 <div class="image"><div class="hover"></div><img src="assets/img/promo/morocco.jpg" alt="Exodus" class="img-fluid"></div>
                             </div>
                         </section>
-                        <div class="center"><a href="promo-page.html" class="mt-50 primary-btn large no-bg border-2 b-black t-black">View All promotions</a></div>
+                        <div class="center"><a href="promo-page.php" class="mt-50 primary-btn large no-bg border-2 b-black t-black">View All promotions</a></div>
                     </div>
                 </div>
             </div>
@@ -254,7 +254,7 @@
                         <h2 class="t-white">Discovering the <span class="t-gold">World</span></h2>
                         <h6 class="t-white paragraph">Passionate about travel and sharing the world's wonders on the leisure travel side. We provide corporate travelers hi-touch services to facilitate their business travel needs. Named each year as one of the <span class="t-gold">"Best Places To Work"</span> in New York.</h6>
 
-                        <a href="about-page.html" class="mt-30 primary-btn large white t-black"><i class="fas fa-video"></i> View our showreel</a>
+                        <a href="about.php" class="mt-30 primary-btn large white t-black"><i class="fas fa-video"></i> View our showreel</a>
                     </div>
                 </div>
             <!-- Video Background -->
@@ -281,7 +281,7 @@
                         <div class="col-lg-4 left">
                             <div class="post-item">
                                 <img src="assets/img/ft-1.jpg" alt="exodus" class="img-fluid main">
-                                <a href="blog-detail.html"><h4 class="t-black">Discovering Mikonos</h4></a>
+                                <a href="blog-detail.php"><h4 class="t-black">Discovering Mikonos</h4></a>
                                 <div class="info-box-detail left">
                                     <div class="post-info">By: <a class="author t-gold">Angela Manscori</a></div>
                                     <div class="post-views">
@@ -298,7 +298,7 @@
                         <div class="col-lg-4 left">
                             <div class="post-item">
                                 <img src="assets/img/ft-2.jpg" alt="exodus" class="img-fluid main">
-                                <a href="blog-detail.html"><h4 class="t-black">The Island of Vulcano</h4></a>
+                                <a href="blog-detail.php"><h4 class="t-black">The Island of Vulcano</h4></a>
                                 <div class="info-box-detail left">
                                     <div class="post-info">By: <a class="author t-gold">Nissur Al Bettur</a></div>
                                     <div class="post-views">
@@ -313,7 +313,7 @@
                         <div class="col-lg-4 left">
                             <div class="post-item">
                                 <img src="assets/img/ft-3.jpg" alt="exodus" class="img-fluid main">
-                                <a href="blog-detail.html"><h4 class="t-black">Cathedral in the Sea</h4></a>
+                                <a href="blog-detail.php"><h4 class="t-black">Cathedral in the Sea</h4></a>
                                 <div class="info-box-detail left">
                                     <div class="post-info">By: <a class="author t-gold">Jesus A. Barrero</a></div>
                                     <div class="post-views">
