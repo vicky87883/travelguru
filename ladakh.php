@@ -132,10 +132,15 @@ region, Kashmir region, Indian subcontinent, Asia</h1>
         <script src="js/main.js"></script>
         <script src="js/aos.js"></script>
         <script>
-        let likeCounter = 0;
+        // Initialize likeCounter from localStorage if available
+        let likeCounter = localStorage.getItem("likeCounter") ? parseInt(localStorage.getItem("likeCounter")) : 0;
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("likeCount").innerText = likeCounter;
+        });
 
         function like() {
             likeCounter++;
+            localStorage.setItem("likeCounter", likeCounter); // Save likeCounter to localStorage
             document.getElementById("likeCount").innerText = likeCounter;
         }
     </script>
