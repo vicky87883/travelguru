@@ -198,6 +198,10 @@ a i{
 .back.three{
     background-image:url("../assets/img/backs/back03.jpg");
 }
+.back.ladakh
+{
+    background-image:url("../assets/img/backs/ladakh.webp");
+}
 .back.four{
     background-image:url("../assets/img/backs/back04.jpg");
 }
