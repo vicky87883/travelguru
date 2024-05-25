@@ -97,9 +97,9 @@ region, Kashmir region, Indian subcontinent, Asia</h1>
             
             <div class="container mt-20 paragraph"> 
                 <div class="content center">
-                    < class="mt-50"><button href="" class="primary-btn white b-gold border t-gold" onclick="like()"><i class="fas fa-heart"></i>
+                    <p class="mt-50"><button href="" class="primary-btn white b-gold border t-gold" onclick="like()"><i class="fas fa-heart"></i>
     Likes: <span id="likeCount">0</span>
-</button> <button href="" class="primary-btn white b-gold border t-gold"><i class="fas fa-share"></i> Share</></button>
+</button> <button href="" class="primary-btn white b-gold border t-gold"><i class="fas fa-share"></i> Share</button></p>
                 </div>
             </div>
         </div>
