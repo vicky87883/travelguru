@@ -2,10 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Exodus - Vintage HTML Template</title>
-        <meta name="description" content="lancio, business, launch, app, product, template, design, modern, elegant">
+        <title>Ladakh region, Kashmir region, Indian subcontinent, Asia</title>
+        <meta name="description" content="Ladakh
+region, Kashmir region, Indian subcontinent, Asia">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="lancio, food, launch, app, product, template, design, modern, elegant">
+        <meta name="keywords" content="Ladakh
+region, Kashmir region, Indian subcontinent, Asia">
         <meta name="Resource-type" content="Document">
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
         
