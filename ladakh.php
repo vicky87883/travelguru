@@ -97,7 +97,9 @@ region, Kashmir region, Indian subcontinent, Asia</h1>
             
             <div class="container mt-20 paragraph"> 
                 <div class="content center">
-                    <p class="mt-50"><a href="" class="primary-btn white b-gold border t-gold"><i class="fas fa-heart"></i> Like</a> <a href="" class="primary-btn white b-gold border t-gold"><i class="fas fa-share"></i> Share</a></p>
+                    < class="mt-50"><button href="" class="primary-btn white b-gold border t-gold" onclick="like()"><i class="fas fa-heart"></i>
+    Likes: <span id="likeCount">0</span>
+</button> <button href="" class="primary-btn white b-gold border t-gold"><i class="fas fa-share"></i> Share</></button>
                 </div>
             </div>
         </div>
@@ -129,6 +131,13 @@ region, Kashmir region, Indian subcontinent, Asia</h1>
         <script src="js/contact.js"></script> 
         <script src="js/main.js"></script>
         <script src="js/aos.js"></script>
+        <script>
+        let likeCounter = 0;
 
+        function like() {
+            likeCounter++;
+            document.getElementById("likeCount").innerText = likeCounter;
+        }
+    </script>
     </body>
 </html>
