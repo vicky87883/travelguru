@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Redirect requests for .php files to extensionless URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+# To remove trailing slash from URLs
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.*)/$ /$1 [L,R=301]
