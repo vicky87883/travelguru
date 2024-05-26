@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share This Article</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .article-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .article-content {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .share-buttons {
+            margin-top: 20px;
+        }
+        .share-buttons a {
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: #fff;
+        }
+        .facebook { background-color: #3b5998; }
+        .twitter { background-color: #1da1f2; }
+        .linkedin { background-color: #0077b5; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="article-title">Your Article Title</h1>
+        <p class="article-content">
+            This is the content of your article. You can write your full article here. Make sure to replace this text with your actual article content.
+        </p>
+        <div class="share-buttons">
+            <a href="javascript:void(0);" class="facebook" onclick="share('facebook')">Share on Facebook</a>
+            <a href="javascript:void(0);" class="twitter" onclick="share('twitter')">Share on Twitter</a>
+            <a href="javascript:void(0);" class="linkedin" onclick="share('linkedin')">Share on LinkedIn</a>
+        </div>
+    </div>
+
+    <script>
+        function share(platform) {
+            var url = window.location.href;
+            var title = document.querySelector('.article-title').innerText;
+            var text = 'Check out this article: ' + title;
+
+            var shareUrl = '';
+
+            if (platform === 'facebook') {
+                shareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+            } else if (platform === 'twitter') {
+                shareUrl = 'https://twitter.com/intent/tweet?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(text);
+            } else if (platform === 'linkedin') {
+                shareUrl = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(url);
+            }
+
+            window.open(shareUrl, '_blank');
+        }
+    </script>
+</body>
+</html>
