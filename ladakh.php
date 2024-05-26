@@ -84,7 +84,7 @@ region, Kashmir region, Indian subcontinent, Asia</h1>
 <div class="content center">
 <p class=mt-50><button href class="primary-btn white b-gold border t-gold" onclick=like()><i class="fas fa-heart"></i>
 Likes: <span id=likeCount>0</span>
-</button> <button href class="primary-btn white b-gold border t-gold"><i class="fas fa-share"></i> Share</button></p>
+</button> <button href class="primary-btn white b-gold border t-gold" onclick="shareURL('https://www.travelguru.world/ladakh')"><i class="fas fa-share"></i> Share</button></p>
 </div>
 </div>
 </div>
@@ -109,5 +109,20 @@ Likes: <span id=likeCount>0</span>
 <script src=js/main.js></script>
 <script src=js/aos.js></script>
 <script>let likeCounter=localStorage.getItem("likeCounter")?parseInt(localStorage.getItem("likeCounter")):0;document.addEventListener("DOMContentLoaded",function(){document.getElementById("likeCount").innerText=likeCounter});function like(){likeCounter++;localStorage.setItem("likeCounter",likeCounter);document.getElementById("likeCount").innerText=likeCounter};</script>
+<script>
+        function shareURL(url) {
+            // Check if Web Share API is supported by the browser
+            if (navigator.share) {
+                navigator.share({
+                    url: url
+                })
+                .then(() => console.log('URL shared successfully'))
+                .catch((error) => console.error('Error sharing URL:', error));
+            } else {
+                // Fallback for browsers that do not support Web Share API
+                alert('Web Share API is not supported by your browser. You can manually share the URL by copying it: ' + url);
+            }
+        }
+    </script>
 </body>
 </html>
