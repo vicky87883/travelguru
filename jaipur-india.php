@@ -15,6 +15,7 @@
 <link rel=stylesheet type=text/css href=css/az-styles.css>
 <script src=../../747940bb1c.js></script>
 <link rel=stylesheet type=text/css href=css/animate.css>
+<link rel=canonical href=https://www.travelguru.world/jaipur-india />
 <link rel=stylesheet type=text/css href=css/aos.css>
 <link rel=stylesheet type=text/css href=css/slick.css>
 <link rel=stylesheet type=text/css href=css/slick-theme.css>

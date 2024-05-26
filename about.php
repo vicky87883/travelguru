@@ -24,6 +24,8 @@
         <!-- Load Animate CSS -->
         <link rel="stylesheet" type="text/css" href="css/animate.css">
         <!-- Load AOS CSS -->
+        
+    <link rel=canonical href=https://www.travelguru.world/about />
         <link rel="stylesheet" type="text/css" href="css/aos.css">
         <!-- Slick Slider CSS -->
         <link rel="stylesheet" type="text/css" href="css/slick.css">

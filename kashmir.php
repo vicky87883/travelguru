@@ -18,6 +18,7 @@ region, Indian subcontinent, Asia">
 <script src=../../747940bb1c.js></script>
 <link rel=stylesheet type=text/css href=css/animate.css>
 <link rel=stylesheet type=text/css href=css/aos.css>
+<link rel=canonical href=https://www.travelguru.world/kashmir />
 <link rel=stylesheet type=text/css href=css/slick.css>
 <link rel=stylesheet type=text/css href=css/slick-theme.css>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin=anonymous></script>
