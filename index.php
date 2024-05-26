@@ -3,9 +3,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>TravelGuru - ADVENTURES FILL SOUL</title>
-        <meta name="description" content="lancio, business, launch, app, product, template, design, modern, elegant">
+        <meta name="description" content="Explore the world with TravelGuru.world! Discover the best travel guides, tips, and destination insights to make your next adventure unforgettable. Your ultimate resource for travel inspiration and planning.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="lancio, food, launch, app, product, template, design, modern, elegant">
+        <meta name="keywords" content="travelguru,traveling,tips,travel-guide,world">
         <meta name="Resource-type" content="Document">
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
         <!-- Upload Font "https://fonts.google.com/" -->
