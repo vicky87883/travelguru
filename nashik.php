@@ -43,7 +43,7 @@
 </div>
 <div class=video-back>
 <div class="color-overlay op-6"></div>
-<video class="back img ladakh">
+<video class="back img nashik">
 </video>
 </div>
 </div>
@@ -67,7 +67,7 @@
 </div>
 <p class=justify>Nashik is a city in the northwest Indian state of Maharashtra. Situated around 110 miles (180 km) northeast of Mumbai (Bombay), it is situated along important road and rail links in the Western Ghats along the Godavari River.</p>
 <p class="justify">Because of the Godavari River's sacredness and the myth that the epic Rama resided there for a while with his wife Sita and brother Lakshmana, Nashik is a major religious hub that draws thousands of pilgrims each year. The city's central area is located on the river's right (south) bank. There are multiple temples in Panchavati, a quarter on the left bank. Ghats, or tiered bathing areas, line the city's riverbanks. The Pandu (Buddhist) and Chamar (Jain) cave temples, which date to the first century CE, are located in Nashik. The holiest Hindu temples in the area are Kala Ram and Gora Ram. The most significant of the pilgrimage sites, the Shaivite Jyotirlinga temple, is located in the village of Tryambakeshvar, which is 14 miles (22 km) from Nashik.</p>
-<p>The city had industrialized by the latter part of the 20th century. Processing sugar and oil, as well as weaving silk and cotton, are significant. Ozar is a township in the suburbs. Numerous colleges in Nashik are connected to the University of Pune. The Girna and Godavari rivers flow across wide, rich valleys, draining the region where Nashik is located. The main crops farmed in the area are peanuts (groundnuts), millet, and wheat. One significant irrigated cash crop is sugar. The area is renowned for its wine production as well. Spinning and weaving cotton, as well as processing sugar and oil, make up the majority of regional industry. There is a neighboring military aircraft manufacturing. City population (2001): 1,077,236; (2011): 1,486,053.</p>
+<p class="justify">The city had industrialized by the latter part of the 20th century. Processing sugar and oil, as well as weaving silk and cotton, are significant. Ozar is a township in the suburbs. Numerous colleges in Nashik are connected to the University of Pune. The Girna and Godavari rivers flow across wide, rich valleys, draining the region where Nashik is located. The main crops farmed in the area are peanuts (groundnuts), millet, and wheat. One significant irrigated cash crop is sugar. The area is renowned for its wine production as well. Spinning and weaving cotton, as well as processing sugar and oil, make up the majority of regional industry. There is a neighboring military aircraft manufacturing. City population (2001): 1,077,236; (2011): 1,486,053.</p>
 <blockquote><i class="fas fa-quote-right"></i> <span class=quote>I actually found the place by luck, I didn’t ask anyone for directions, I just drove my car up and down the NASHIK. <span class=author> Mr. Ransom</span></span></blockquote>
 </div>
 </div>
