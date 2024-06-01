@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Exodus - Vintage HTML Template</title>
+        <title></title>
         <meta name="description" content="lancio, business, launch, app, product, template, design, modern, elegant">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="lancio, food, launch, app, product, template, design, modern, elegant">
