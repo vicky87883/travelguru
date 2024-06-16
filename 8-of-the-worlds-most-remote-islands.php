@@ -40,9 +40,9 @@
 </video>
 </div>
 </div>
-< class="section white no-padding post-detail">
-< class=container id=post>
-< class="content center paragraph">
+<div class="section white no-padding post-detail">
+<div class=container id=post>
+<div  class="content center paragraph">
 <div class="center info-box-detail mt-minus-200">
 <div class=author><img src=assets/img/user1.jpg alt=exodus class=img-fluid></div>
 <div class=post-info>By: <a class="author t-gold">Vikram</a> from <span class=country>India</span></div>
@@ -76,7 +76,7 @@ Sunday, 16 June 2024</div>
 <h3 class="t-black justify bold">South Georgia</h3>
 <p class="justify">Located in the Atlantic section of the Southern Ocean, roughly 1,450 km (900 mi) east of the Falkland Islands and 4,790 km (2,976 mi) west of Cape Town, South Africa, the island of South Georgia is a part of the British overseas territory of South Georgia and the South Sandwich Islands. There are not many human inhabitants on the island, despite the abundance of wildlife on the island and in the surrounding waterways.</p>
 <p class="justify">The only people living on the island are a small group of scientists and support staff who work at the British Antarctic Survey stations at Grytviken on King Edward Point and at Bird Island, off the island's northwest tip. The island is most known for being the location of the last leg of the difficult journey made by British explorer Sir Ernest Shackleton, who first crossed South Georgia Island in 1916 while looking for assistance for his tragic trans-Antarctic expedition. The island was used as a base for whaling and scientific expeditions on occasion during the 19th century.</p>
-<h3 class="t-black justify bold">Diego Garcia</strong></h3>
+<h3 class="t-black justify bold">Diego Garcia</h3>
 <p class="justify">Diego Garcia is an intriguing coral atoll with a v-shape located in the middle of the Indian Ocean. The island is the biggest and most southernly located component of the British Indian Ocean Territory's Chagos Archipelago. Because of its advantageous location between East Africa, the Middle East, Southeast Asia, and Australia, the island serves as a major air and naval support facility for the armed forces of the United States and Great Britain.</p>
 <p class="justify">(Although there is a lot going on on this island, one could argue that Diego Garcia's military goal, which is somewhat covert, justifies its inclusion in this list.) More than a thousand islanders had lived on Diego Garcia until they were forced to relocate to Mauritius and the Seychelles in 1971 to create room for the island to become militarized. The right to go back home is still being contested by these islanders and their descendants in court.</p>
 
