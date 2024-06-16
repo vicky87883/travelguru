@@ -30,7 +30,7 @@
 <div class="content center mt-100">
 <h5 class=t-gold>Eight of the Remotest Islands in the World</h5>
 <span class=line></span>
-<div class=tags><a class="tag t-white b-gold">#traveling</a> <a class="tag t-white b-gold">#India</a> <a class="tag t-white b-gold">#vacation</a></div>
+<div class=tags><a class="tag t-white b-gold">#traveling</a> <a class="tag t-white b-gold">#world</a> <a class="tag t-white b-gold">#vacation</a></div>
 <div class=mt-50></div>
 </div>
 </div>
