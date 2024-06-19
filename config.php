@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'rss_feed_db';
-$username = 'root';
-$password = '';
+$dbname = 'coder';
+$username = 'vikram';
+$password = 'Parjapat@123';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
