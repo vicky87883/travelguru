@@ -69,7 +69,7 @@
             const link = document.getElementById('link').value;
 
             // Send data to the API
-            fetch('http://localhost:8000/api.php', {
+            fetch('http://www.travelguru.world/api.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
