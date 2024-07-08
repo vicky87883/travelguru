@@ -51,7 +51,7 @@ function handleGetRequest($pdo) {
 
 // Function to handle POST requests
 function handlePostRequest($input, $pdo) {
-    if (isset($input['title']) && isset($input['description']) && isset($input['link'])) {
+    if (isset($input['title']) && isset($input['image']) && isset($input['description']) && isset($input['link'])) {
         try {
             $stmt = $pdo->prepare("INSERT INTO posts (title, description, link, pubDate) VALUES (:title, :description, :link, NOW())");
             $stmt->execute(['title' => $input['title'], 'description' => $input['description'], 'link' => $input['link']]);
