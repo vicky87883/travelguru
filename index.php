@@ -1,9 +1,15 @@
-﻿<!DOCTYPE html>
+﻿<?php
+require_once('dbcon.php');
+$query = "SELECT * FROM `travelblog` ORDER BY id DESC LIMIT 15";
+$result = mysqli_query($con,$query);
+?>
+<?php include "script.php" ?>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>TravelGuru - ADVENTURES FILL SOUL</title>
-        <meta name="description" content="Explore the world with TravelGuru.world! Discover the best travel guides, tips, and destination insights to make your next adventure unforgettable. Your ultimate resource for travel inspiration and planning.">
+        <title>TravelGuru - Let's travel the world</title>
+        <meta name="description" content="Explore the world with travelguru! Discover the best travel guides, tips, and destination insights to make your next adventure unforgettable. Your ultimate resource for travel inspiration and planning.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="travelguru,traveling,tips,travel-guide,world">
         <meta name="Resource-type" content="Document">
@@ -110,17 +116,8 @@
                 </div>
             </div>
         </div><!-- Section Ends -->
-        
-        <!-- Section -->
-        <!-- Promo Slider -->
      <?php include('midsection.php') ?>
-        <!-- Section -->
-        
-        <!-- Section -->
-       
         <div class="container"><div class="break-line gold op-3"></div></div>
-        
-        <!-- Section -->
         <div class="section back four"> 
             <div class="container center"> 
                 <div class="banner white square">
@@ -129,13 +126,9 @@
                     <h2 class="t-black">Don't <span class="t-gold">miss</span> it!</h2>
                     <h6 class="center">Subscribe to our newsletter for special promotions & cool updates.</h6>
                     <div id="fields">
-                        
-                        <!-- CONTACT Form-->
                         <form id="contact-form" method="POST" action="php/contact.php">
                             <div id="note" class="messages t-dark"></div>
                             <div class="controls center newsletter">
-                                
-                                <!-- form-group-->
                                 <div class="form-group">
                                     <div class="input-item form-group">
                                         <input id="form_email" type="email" name="email" class="form-control light-grey" placeholder="Email address*" required="required" data-error="Valid email is required.">
@@ -157,11 +150,7 @@
                     </div>
             </div>
         </div><!-- Section Ends -->
-        
-        <!-- Footer -->
             <?php include('footer.php') ?>
-        
-        <!-- JS files upload -->
         <script src="js/jquery-3.4.1.min.js"></script> 
         <script src="js/bootstrap.min.js"></script>
         <script src="js/popper.min.js"></script>
@@ -170,6 +159,5 @@
         <script src="js/contact.js"></script> 
         <script src="js/main.js"></script>
         <script src="js/aos.js"></script>
-        
     </body>
 </html>
