@@ -10,12 +10,16 @@
                 <div class="container" id="posts">
                     <div class="content center">
                         <div class="row text-justify">
+                        <?php
+                        while($row = mysqli_fetch_assoc($result))
+                        {
+                            ?>
                             <!-- Info Box -->
                             <div class="col-lg-4 left">
                                 <div class="post-item">
-                                    <img src="assets/img/ft-1.jpg" alt="exodus" class="img-fluid main">
+                                    <img src="<?php echo ($row['image']); ?>" alt="exodus" class="img-fluid main">
                                     <a href="blog-detail.php">
-                                        <h4 class="t-black">Discovering Mikonos</h4>
+                                        <h4 class="t-black"><?php echo ($row['heading']); ?></h4>
                                     </a>
                                     <div class="info-box-detail left">
                                         <div class="post-info">By: <a class="author t-gold">Angela Manscori</a></div>
@@ -23,45 +27,15 @@
                                             <img src="assets/img/user1.jpg" alt="exodus" class="img-fluid">
                                             <img src="assets/img/user2.jpg" alt="exodus" class="img-fluid">
                                             <img src="assets/img/user3.jpg" alt="exodus" class="img-fluid">
-                                            <span class="count">+110</span>
+                                            <span class="count"></span>
                                         </div>
                                     </div>
                                 </div>
                             </div><!-- End -->
+                            <?php
+                        }
 
-                            <!-- Info Box -->
-                            <div class="col-lg-4 left">
-                                <div class="post-item">
-                                    <img src="assets/img/ft-2.jpg" alt="exodus" class="img-fluid main">
-                                    <a href="blog-detail.php">
-                                        <h4 class="t-black">The Island of Vulcano</h4>
-                                    </a>
-                                    <div class="info-box-detail left">
-                                        <div class="post-info">By: <a class="author t-gold">Nissur Al Bettur</a></div>
-                                        <div class="post-views">
-                                            <img src="assets/img/user1.jpg" alt="exodus" class="img-fluid">
-                                            <img src="assets/img/user2.jpg" alt="exodus" class="img-fluid">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- End -->
-                            <div class="col-lg-4 left">
-                                <div class="post-item">
-                                    <img src="assets/img/ft-3.jpg" alt="exodus" class="img-fluid main">
-                                    <a href="blog-detail.php">
-                                        <h4 class="t-black">Cathedral in the Sea</h4>
-                                    </a>
-                                    <div class="info-box-detail left">
-                                        <div class="post-info">By: <a class="author t-gold">Jesus A. Barrero</a></div>
-                                        <div class="post-views">
-                                            <img src="assets/img/user1.jpg" alt="exodus" class="img-fluid">
-                                            <img src="assets/img/user2.jpg" alt="exodus" class="img-fluid">
-                                            <img src="assets/img/user3.jpg" alt="exodus" class="img-fluid">
-                                            <span class="count">+234</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- End -->
+                        ?>
                         </div>
                     </div>
                 </div>
