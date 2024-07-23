@@ -17,7 +17,7 @@
                                 <div class="col-lg-4 left">
                                     <div class="post-item">
                                         <img src="<?php echo ($row['image']); ?>" alt="exodus" class="img-fluid main">
-                                        <a href="blog-detail.php">
+                                        <a href="<?php echo ($row['link']); ?>">
                                             <h4 class="t-black"><?php echo ($row['title']); ?></h4>
                                         </a>
                                         <div class="info-box-detail left">
