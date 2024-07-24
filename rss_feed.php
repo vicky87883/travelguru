@@ -29,7 +29,7 @@ if ($result->num_rows > 0) {
         $rss_feed .= "<item>";
         $rss_feed .= "<title>" . htmlspecialchars($row["title"]) . "</title>";
         $rss_feed .= "<link>" . htmlspecialchars($row["link"]) . "</link>";
-        $rss_feed .= "<description><![CDATA[<img src='" . htmlspecialchars($row["image"]) . "' />]]></description>";
+        $rss_feed .= "<description><![CDATA[<img src='" . htmlspecialchars($row["image"]) . "' alt='" . htmlspecialchars($row["title"]) . "' />]]></description>";
         $rss_feed .= "</item>";
     }
 }
