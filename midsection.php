@@ -16,16 +16,16 @@
                                 <!-- Info Box -->
                                 <div class="col-lg-4 left">
                                     <div class="post-item">
-                                        <img src="<?php echo ($row['image']); ?>" alt="exodus" class="img-fluid main">
+                                        <img src="<?php echo ($row['image']); ?>" alt="blog" class="img-fluid main">
                                         <a href="<?php echo ($row['link']); ?>">
                                             <h4 class="t-black"><?php echo ($row['title']); ?></h4>
                                         </a>
                                         <div class="info-box-detail left">
                                             <div class="post-info">By: <a class="author t-gold">Angela Manscori</a></div>
                                             <div class="post-views">
-                                                <img src="assets/img/user1.jpg" alt="exodus" class="img-fluid">
-                                                <img src="assets/img/user2.jpg" alt="exodus" class="img-fluid">
-                                                <img src="assets/img/user3.jpg" alt="exodus" class="img-fluid">
+                                                <img src="assets/img/user1.jpg" alt="blog" class="img-fluid">
+                                                <img src="assets/img/user2.jpg" alt="blog" class="img-fluid">
+                                                <img src="assets/img/user3.jpg" alt="blog" class="img-fluid">
                                                 <span class="count"></span>
                                             </div>
                                         </div>
