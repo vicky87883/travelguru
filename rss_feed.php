@@ -4,7 +4,7 @@ require 'config.php';
 
 try {
     // Fetch posts from the database
-    $stmt = $pdo->query("SELECT * FROM posts ORDER BY pubDate DESC");
+    $stmt = $pdo->query("SELECT * FROM travelblog ORDER BY pubDate DESC");
     $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     // Generate the RSS feed
@@ -19,7 +19,7 @@ try {
     foreach ($posts as $post) {
         echo '<item>';
         echo '<title>' . htmlspecialchars($post['title']) . '</title>';
-        echo '<description>' . htmlspecialchars($post['description']) . '</description>';
+        echo '<description>' . htmlspecialchars($post['image']) . '</description>';
         echo '<link>' . htmlspecialchars($post['link']) . '</link>';
         echo '<pubDate>' . date(DATE_RSS, strtotime($post['pubDate'])) . '</pubDate>';
         echo '</item>';
