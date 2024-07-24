@@ -70,7 +70,7 @@ $result = mysqli_query($con,$query);
         <div class="section white"> 
             <div class="container" id="posts"> 
                 <div class="content center">
-                    <div class="row text-justify mt-30">
+                    <div class="row text-justify">
                        <?php include('midsection.php') ?>
                     </div>
                 </div>
