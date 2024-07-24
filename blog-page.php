@@ -75,25 +75,6 @@ $result = mysqli_query($con,$query);
                     <span class="line gold"></span>
                     <h2 class="t-dark">Latest from the <span class="t-gold">Blog</span></h2>
                     <div class="row text-justify mt-30">
-                        
-                        <!-- Info Box -->
-                        <div class="col-lg-6 left mt-20">
-                            <div class="post-item">
-                                <img src="assets/img/ft-1.jpg" alt="exodus" class="img-fluid main">
-                                <a href="blog-detail.html"><h4 class="t-black">Discovering Mikonos Hidden Spots</h4></a>
-                                <div class="info-box-detail left">
-                                    <div class="post-info">By: <a class="author t-gold">Angela Manscori</a></div>
-                                    <span class="separation">/</span>
-                                    <div class="post-date">Sep 13 2019</div>
-                                    <div class="post-views">
-                                        <img src="assets/img/user1.jpg" alt="exodus" class="img-fluid">
-                                        <img src="assets/img/user2.jpg" alt="exodus" class="img-fluid">
-                                        <img src="assets/img/user3.jpg" alt="exodus" class="img-fluid">
-                                        <span class="count">+110</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- End -->
                        <?php include('midsection.php') ?>
                     </div>
                 </div>
