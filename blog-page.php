@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿<?php
+require_once('dbcon.php');
+$query = "SELECT * FROM `travelblog` ORDER BY id DESC LIMIT 15";
+$result = mysqli_query($con,$query);
+?>
+<?php include "script.php" ?>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -88,62 +94,7 @@
                                 </div>
                             </div>
                         </div><!-- End -->
-                        
-                        <!-- Info Box -->
-                        <div class="col-lg-6 left mt-20">
-                            <div class="post-item">
-                                <img src="assets/img/ft-2.jpg" alt="exodus" class="img-fluid main">
-                                <a href="blog-detail.html"><h4 class="t-black">The Island of Vulcano</h4></a>
-                                <div class="info-box-detail left">
-                                    <div class="post-info">By: <a class="author t-gold">Nissur Al Bettur</a></div>
-                                    <span class="separation">/</span>
-                                    <div class="post-date">Aug 20 2019</div>
-                                    <div class="post-views">
-                                        <img src="assets/img/user1.jpg" alt="exodus" class="img-fluid">
-                                        <img src="assets/img/user2.jpg" alt="exodus" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- End -->
-                        
-                        <!-- Info Box -->
-                        <div class="col-lg-6 left mt-20">
-                            <div class="post-item">
-                                <img src="assets/img/ft-3.jpg" alt="exodus" class="img-fluid main">
-                                <a href="blog-detail.html"><h4 class="t-black">Cathedral in the Sea</h4></a>
-                                <div class="info-box-detail left">
-                                    <div class="post-info">By: <a class="author t-gold">Jesus A. Barrero</a></div>
-                                    <span class="separation">/</span>
-                                    <div class="post-date">Jul 03 2019</div>
-                                    <div class="post-views">
-                                        <img src="assets/img/user1.jpg" alt="exodus" class="img-fluid">
-                                        <img src="assets/img/user2.jpg" alt="exodus" class="img-fluid">
-                                        <img src="assets/img/user3.jpg" alt="exodus" class="img-fluid">
-                                        <span class="count">+234</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- End -->
-                        
-                        <!-- Info Box -->
-                        <div class="col-lg-6 left mt-20">
-                            <div class="post-item">
-                                <img src="assets/img/ft-4.jpg" alt="exodus" class="img-fluid main">
-                                <a href="blog-detail.html"><h4 class="t-black">Scotland Wonders</h4></a>
-                                <div class="info-box-detail left">
-                                    <div class="post-info">By: <a class="author t-gold">Larlain Bronf</a></div>
-                                    <span class="separation">/</span>
-                                    <div class="post-date">Jun 13 2019</div>
-                                    <div class="post-views">
-                                        <img src="assets/img/user1.jpg" alt="exodus" class="img-fluid">
-                                        <img src="assets/img/user2.jpg" alt="exodus" class="img-fluid">
-                                        <img src="assets/img/user3.jpg" alt="exodus" class="img-fluid">
-                                        <span class="count">+34</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- End -->
-                        
+                       <?php include('midsection.php') ?>
                     </div>
                 </div>
             </div>
