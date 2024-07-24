@@ -4,7 +4,7 @@ require 'config.php';
 
 try {
     // Fetch posts from the database
-    $stmt = $pdo->query("SELECT * FROM travelblog ORDER BY pubDate DESC");
+    $stmt = $pdo->query("SELECT * FROM travelblog ORDER BY id DESC");
     $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     // Generate the RSS feed
