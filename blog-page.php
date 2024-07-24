@@ -70,10 +70,6 @@ $result = mysqli_query($con,$query);
         <div class="section white"> 
             <div class="container" id="posts"> 
                 <div class="content center">
-                    
-                    <h5 class="t-black">THE BLOG</h5>
-                    <span class="line gold"></span>
-                    <h2 class="t-dark">Latest from the <span class="t-gold">Blog</span></h2>
                     <div class="row text-justify mt-30">
                        <?php include('midsection.php') ?>
                     </div>
